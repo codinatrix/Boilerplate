@@ -31,4 +31,5 @@ Assets
 
 * Placeholder.js from CDN
 
-Make sure to set username and password in config/database.yml. Do not commit that file.
+Make sure to set username and password in config/database.yml. Do not commit that file publicly.
+Run `rake secret` and copy the result into secret_token.rb. Do not commit that file publicly. 
