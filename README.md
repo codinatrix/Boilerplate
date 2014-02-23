@@ -1,4 +1,4 @@
-== Rails Boilerplate
+# Rails Boilerplate
 
 This is a boilerplate startup app with all the gems and configs that I tend to use in every project. This is probably not
 useful to anyone other than me.
@@ -32,6 +32,7 @@ Assets
 * Placeholder.js from CDN
 
 Make sure to set username and password in config/database.yml. Do not commit that file publicly.
+
 Run ```rake secret``` and copy the result into secret_token.rb. Do not commit that file publicly. 
 
 ```heroku create myapp``` and then you can push!
