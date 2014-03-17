@@ -34,6 +34,6 @@ Assets
 Make sure to set username and password in config/database.yml if not using Heroku. Heroku will automatically rewrite that file, so no 
 worries with Heroku.
 
-Run ```rake secret``` and copy the result into secret_token.rb. Do not commit that file publicly. 
+Run ```rake secret``` and copy the result into ```heroku config:set SECRET_KEY_BASE=something```. Do not commit that file publicly. 
 
 ```heroku create myapp``` and then you can push!

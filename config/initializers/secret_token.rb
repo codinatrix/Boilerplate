@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Boilerplate::Application.config.secret_key_base = 'ff7ddca5799a3f530f630da7e431d61be8ca90f6827fedf4e847afbda744e35c545b09426bc103542753c7d080f0ac9e128eaa283bb874f3bb576405e03941c5'
+Boilerplate::Application.config.secret_key_base = ENV['SECRET_TOKEN'] || "localonly"
