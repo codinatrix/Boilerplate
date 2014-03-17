@@ -31,7 +31,8 @@ Assets
 
 * Placeholder.js from CDN
 
-Make sure to set username and password in config/database.yml. Do not commit that file publicly.
+Make sure to set username and password in config/database.yml if not using Heroku. Heroku will automatically rewrite that file, so no 
+worries with Heroku.
 
 Run ```rake secret``` and copy the result into secret_token.rb. Do not commit that file publicly. 
 
